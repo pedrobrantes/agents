@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "skills": {},
+  "dismissed": {},
+  "lastSelectedAgents": [
+    "amp",
+    "codex",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode"
+  ]
+}
