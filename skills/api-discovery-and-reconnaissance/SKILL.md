@@ -1,3 +1,8 @@
+---
+name: api-discovery-and-reconnaissance
+description: Advanced mapping, interception, and fuzzing of documented and undocumented (Shadow) APIs using CLI/TUI tools (Subfinder, Waybackurls, mitmproxy, tshark, ffuf, Kiterunner, Nuclei, cURL, HTTPie, jq).
+---
+
 # API Discovery & Reconnaissance (CLI/TUI)
 
 ## Overview
