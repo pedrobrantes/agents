@@ -16,8 +16,10 @@ description: Transform materials into Anki flashcards and Obsidian didactic note
     - Format: Markdown with hierarchy.
     - Includes: Summary, Concepts, and 3-5 challenging Exercises.
 3.  **Anki Flashcards**: Generate flashcards in the specific format for the `anki-sync` script.
-    - Format: `Front ? Back ---` (Atomic question and answer).
-    - Save to: `~/Sync/Obsidian/My Notes/2-flashcards/[Topic].md`.
+    - Format: `Front\n?\nBack\n\n---` (Atomic question and answer).
+    - Save location:
+      - When working inside a course under `studies/<term>/<course>/`: save flashcards to `<course>/flashcards/[Topic].md` and didactic notes to `<course>/notes/[Topic].md`.
+      - Otherwise (general non-course notes): save flashcards to `~/Sync/Obsidian/My Notes/2-flashcards/[Topic].md`.
 
 ## Flashcard Principles
 - **One card, one idea**: Avoid complex cards.
