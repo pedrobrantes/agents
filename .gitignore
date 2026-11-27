@@ -10,3 +10,8 @@ tmp/
 # Editor directories
 .idea/
 .vscode/
+
+# Python / Pytest caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
